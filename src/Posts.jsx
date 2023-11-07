@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Post from "./Post";
 
 export default function Posts(){
     const [posts,setPosts]=useState([]);
@@ -11,7 +12,7 @@ export default function Posts(){
         <div>
         <h2>Posts: {posts.length}</h2>
         {
-            posts.map(post=>)
+            posts.map(post=> <Post></Post>)
         }
         
         
