@@ -12,7 +12,7 @@ export default function Posts(){
         <div>
         <h2>Posts: {posts.length}</h2>
         {
-            posts.map(post=> <Post></Post>)
+            posts.map(post=> <Post post= {post} > </Post>)
         }
         
         

@@ -5,7 +5,7 @@ import './App.css'
 import Counter from './Counter';
 import Users from './Users';
 import Posts from './Posts';
-import Post from './Post';
+
 function App() {
 
   function handleClick(){
@@ -27,7 +27,7 @@ function App() {
       </ol>
       <hr></hr>
       <Posts></Posts>
-      <Post></Post>
+     
       <button onClick={handleClick}>Click Me!!!</button>
       <Users></Users>
       <Counter></Counter>
